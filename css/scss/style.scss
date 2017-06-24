@@ -1,0 +1,19 @@
+@import "variables";
+@import "head";
+@import "main";
+@import "footer";
+
+body {
+  background-color: $main_color;
+}
+
+.substrate {
+  margin: 7px 0 7px 0;
+  background-color: $wrapper_background;
+}
+
+.wrapper {
+  width: 1020px;
+  margin: 0 auto;
+}
+

@@ -1,0 +1,120 @@
+.main-slider {
+  height: 485px;
+  background-image: url("../img/slider_backgroung.png");
+  text-align: center;
+  color: $slider_text_color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-slider-heding {
+  font-size: $slider_heading_font_size;
+  font-family: st_ryde_regularregular;
+  text-shadow: -5px 4px 0px rgba(130, 105, 157, 0.75);
+}
+
+.main-slider-text {
+  font-size: $slider_text_font_size;
+  font-family: myriad_pro_regular;
+}
+
+.main-short-article {
+  margin: 40px 10px;
+  text-align: center;
+  border-top: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf;
+  font-size: $main_short_article_font_size;
+  line-height: 36px;
+  font-family: segoe_ui_italic;
+  color: $main_short_article_color;
+  font-weight: bold;
+  padding: 16px 40px;
+}
+
+.main-short-article-paragraph-keywords {
+  color: $main_color;
+}
+
+.main-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-article-section {
+  width: 645px;
+  margin-top: 55px;
+}
+
+.main-article-section-heading {
+  font-family: segoe_ui_bold;
+  font-size: $main_article_heading_font_size;
+  color: $main_article_heading_color;
+  margin-bottom: 25px;
+}
+
+.main-article-section-paragraph {
+  font-family: segoe_ui_regular;
+  font-size: $main_article_paragraph_font_size;
+  color: $main_article_paragraph_color;
+  line-height: 27px;
+}
+
+.main-article-section-link-more {
+  float: right;
+  font-family: segoe_ui_italic;
+  font-size: 13px;
+}
+
+.main-article-section-link-more:after {
+  content: url("../img/arrow.png");
+  margin-left: 3px;
+}
+
+.main-partners {
+  margin: 60px 0;
+}
+
+.main-partners-heading {
+  font-family: segoe_ui_regular;
+  font-size: 23px;
+  display: inline-block;
+  position: relative;
+}
+
+.main-partners-heading:after {
+  content: url("../img/dotted_border.png");
+  position: absolute;
+  display: block;
+  top: -5px;
+  left: 320px;
+}
+
+.first-word {
+  font-weight: bold;
+}
+
+.main-partners-container {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.main-partners-item {
+  display: flex;
+  width: 25%;
+  border: 1px solid #bfbfbf;
+  background: #f5f5f5;
+}
+
+.main-partners-item-link {
+  text-align: center;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}

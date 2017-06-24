@@ -1,0 +1,22 @@
+footer{
+  background: #e8e8e8;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+.footer-copyright {
+  font-family: segoe_ui_regular;
+  font-weight: lighter;
+  color: #454242;
+}
+
+.footer-social-link {
+  margin-left: 20px;
+  display: inline-block;
+}

@@ -1,0 +1,70 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 130px;
+  align-items: center;
+}
+
+.header-logo-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-logo-text {
+  text-transform: uppercase;
+  color: $main_color;
+  display: block;
+  font-family: myriad_pro_regular;
+  font-size: $logo_font_size;
+  margin-left: 15px;
+}
+
+.header-navigatin-menu-list {
+  display: flex;
+  width: 600px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-navigatin-menu-list-item {
+  display: inline-block;
+}
+
+.header-navigatin-menu-list-item-link {
+  font-family: segoe_ui_regular;
+  font-size: $header_navlinks_font_size;
+  color: $header_navlinks_color;
+  display: block;
+  padding-left: 25px;
+  position: relative;
+}
+
+.header-navigatin-menu-list-item-link-home:before {
+  content: url("../img/home_icon.png");
+  position: absolute;
+  left:0;
+  display: block;
+}
+
+.header-navigatin-menu-list-item-link-about:before {
+  content: url("../img/about_icon.png");
+  position: absolute;
+  left:0;
+  display: block;
+}
+
+.header-navigatin-menu-list-item-link-servises:before {
+  content: url("../img/servise_icon.png");
+  position: absolute;
+  left:0;
+  display: block;
+}
+
+.header-navigatin-menu-list-item-link-contacts:before {
+  content: url("../img/contact_icon.png");
+  position: absolute;
+  left:0;
+  display: block;
+}

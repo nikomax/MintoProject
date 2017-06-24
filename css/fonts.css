@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'myriad_pro_regular';
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url('../fonts/MyriadProRegular/MyriadProRegular.woff2') format('woff2'),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "segoe_ui_regular";
+    src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot");
+    src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+    url("../fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "segoe_ui_bold";
+    src: url("../fonts/SegoeUIBold/SegoeUIBold.eot");
+    src: url("../fonts/SegoeUIBold/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"),
+    url("../fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "segoe_ui_italic";
+    src: url("../fonts/SegoeUIItalic/SegoeUIItalic.eot");
+    src: url("../fonts/SegoeUIItalic/SegoeUIItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIItalic/SegoeUIItalic.woff") format("woff"),
+    url("../fonts/SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'st_ryde_regularregular';
+    src: url('../fonts/St_Ryde_Regular/stryde-regular-webfont.woff2') format('woff2'),
+    url('../fonts/St_Ryde_Regular/stryde-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,195 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 130px;
+  align-items: center; }
+
+.header-logo-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.header-logo-text {
+  text-transform: uppercase;
+  color: #a292b3;
+  display: block;
+  font-family: myriad_pro_regular;
+  font-size: 39px;
+  margin-left: 15px; }
+
+.header-navigatin-menu-list {
+  display: flex;
+  width: 600px;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.header-navigatin-menu-list-item {
+  display: inline-block; }
+
+.header-navigatin-menu-list-item-link {
+  font-family: segoe_ui_regular;
+  font-size: 19px;
+  color: #545454;
+  display: block;
+  padding-left: 25px;
+  position: relative; }
+
+.header-navigatin-menu-list-item-link-home:before {
+  content: url("../img/home_icon.png");
+  position: absolute;
+  left: 0;
+  display: block; }
+
+.header-navigatin-menu-list-item-link-about:before {
+  content: url("../img/about_icon.png");
+  position: absolute;
+  left: 0;
+  display: block; }
+
+.header-navigatin-menu-list-item-link-servises:before {
+  content: url("../img/servise_icon.png");
+  position: absolute;
+  left: 0;
+  display: block; }
+
+.header-navigatin-menu-list-item-link-contacts:before {
+  content: url("../img/contact_icon.png");
+  position: absolute;
+  left: 0;
+  display: block; }
+
+.main-slider {
+  height: 485px;
+  background-image: url("../img/slider_backgroung.png");
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.main-slider-heding {
+  font-size: 117px;
+  font-family: st_ryde_regularregular;
+  text-shadow: -5px 4px 0px rgba(130, 105, 157, 0.75); }
+
+.main-slider-text {
+  font-size: 31px;
+  font-family: myriad_pro_regular; }
+
+.main-short-article {
+  margin: 40px 10px;
+  text-align: center;
+  border-top: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf;
+  font-size: 23px;
+  line-height: 36px;
+  font-family: segoe_ui_italic;
+  color: #494848;
+  font-weight: bold;
+  padding: 16px 40px; }
+
+.main-short-article-paragraph-keywords {
+  color: #a292b3; }
+
+.main-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.main-article-section {
+  width: 645px;
+  margin-top: 55px; }
+
+.main-article-section-heading {
+  font-family: segoe_ui_bold;
+  font-size: 31px;
+  color: #505051;
+  margin-bottom: 25px; }
+
+.main-article-section-paragraph {
+  font-family: segoe_ui_regular;
+  font-size: 15px;
+  color: #838383;
+  line-height: 27px; }
+
+.main-article-section-link-more {
+  float: right;
+  font-family: segoe_ui_italic;
+  font-size: 13px; }
+
+.main-article-section-link-more:after {
+  content: url("../img/arrow.png");
+  margin-left: 3px; }
+
+.main-partners {
+  margin: 60px 0; }
+
+.main-partners-heading {
+  font-family: segoe_ui_regular;
+  font-size: 23px;
+  display: inline-block;
+  position: relative; }
+
+.main-partners-heading:after {
+  content: url("../img/dotted_border.png");
+  position: absolute;
+  display: block;
+  top: -5px;
+  left: 320px; }
+
+.first-word {
+  font-weight: bold; }
+
+.main-partners-container {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px; }
+
+.main-partners-item {
+  display: flex;
+  width: 25%;
+  border: 1px solid #bfbfbf;
+  background: #f5f5f5; }
+
+.main-partners-item-link {
+  text-align: center;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center; }
+
+footer {
+  background: #e8e8e8; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center; }
+
+.footer-copyright {
+  font-family: segoe_ui_regular;
+  font-weight: lighter;
+  color: #454242; }
+
+.footer-social-link {
+  margin-left: 20px;
+  display: inline-block; }
+
+body {
+  background-color: #a292b3; }
+
+.substrate {
+  margin: 7px 0 7px 0;
+  background-color: #ffffff; }
+
+.wrapper {
+  width: 1020px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=style.css.map */

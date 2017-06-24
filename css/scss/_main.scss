@@ -65,6 +65,7 @@
   float: right;
   font-family: segoe_ui_italic;
   font-size: 13px;
+  color: #82699d;
 }
 
 .main-article-section-link-more:after {
@@ -117,4 +118,9 @@
   justify-content: center;
   width: 100%;
   align-items: center;
+}
+
+.main-partners-item:hover {
+  background: #E3E3E3;
+  transition: 0.3s;
 }

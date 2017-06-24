@@ -35,6 +35,10 @@ header {
   padding-left: 25px;
   position: relative; }
 
+.header-navigatin-menu-list-item-link:hover {
+  transition: 0.2s;
+  font-weight: bold; }
+
 .header-navigatin-menu-list-item-link-home:before {
   content: url("../img/home_icon.png");
   position: absolute;
@@ -116,7 +120,8 @@ header {
 .main-article-section-link-more {
   float: right;
   font-family: segoe_ui_italic;
-  font-size: 13px; }
+  font-size: 13px;
+  color: #82699d; }
 
 .main-article-section-link-more:after {
   content: url("../img/arrow.png");
@@ -161,6 +166,10 @@ header {
   justify-content: center;
   width: 100%;
   align-items: center; }
+
+.main-partners-item:hover {
+  background: #E3E3E3;
+  transition: 0.3s; }
 
 footer {
   background: #e8e8e8; }

@@ -41,6 +41,11 @@ header {
   position: relative;
 }
 
+.header-navigatin-menu-list-item-link:hover {
+  transition: 0.2s;
+  font-weight: bold;
+}
+
 .header-navigatin-menu-list-item-link-home:before {
   content: url("../img/home_icon.png");
   position: absolute;

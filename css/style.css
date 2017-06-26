@@ -123,6 +123,10 @@ header {
   font-size: 13px;
   color: #82699d; }
 
+.main-article-section-link-more:hover {
+  transform: scale(1.2);
+  transition: 0.2s; }
+
 .main-article-section-link-more:after {
   content: url("../img/arrow.png");
   margin-left: 3px; }
@@ -171,6 +175,10 @@ header {
   background: #E3E3E3;
   transition: 0.3s; }
 
+.main-partners-item:hover .main-partners-item-image {
+  transition: 0.3s;
+  transform: scale(1.1); }
+
 footer {
   background: #e8e8e8; }
 
@@ -201,7 +209,7 @@ footer {
 
 .social-item-link:hover {
   background-position: 0 -31px;
-  transition: 0.2s; }
+  transition: 0.3s; }
 
 .twitter:hover {
   background-position: -31px -31px; }

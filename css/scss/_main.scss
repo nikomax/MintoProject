@@ -68,6 +68,11 @@
   color: #82699d;
 }
 
+.main-article-section-link-more:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+
 .main-article-section-link-more:after {
   content: url("../img/arrow.png");
   margin-left: 3px;
@@ -123,4 +128,9 @@
 .main-partners-item:hover {
   background: #E3E3E3;
   transition: 0.3s;
+}
+
+.main-partners-item:hover .main-partners-item-image {
+  transition: 0.3s;
+  transform: scale(1.1);
 }

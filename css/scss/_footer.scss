@@ -16,7 +16,27 @@ footer{
   color: #454242;
 }
 
-.footer-social-link {
-  margin-left: 20px;
+.social-item {
   display: inline-block;
+  margin-left: 20px;
+}
+
+.social-item-link {
+  display: block;
+  height: 30px;
+  width: 30px;
+  background: url("../img/sprite.png") 0 0 no-repeat;
+}
+
+.twitter {
+  background-position: -31px 0;
+}
+
+.social-item-link:hover {
+  background-position: 0 -31px;
+  transition: 0.2s;
+}
+
+.twitter:hover {
+  background-position: -31px -31px;
 }
